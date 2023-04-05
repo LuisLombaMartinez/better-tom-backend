@@ -1,0 +1,15 @@
+@endpoint = https://q5so4m9yka.execute-api.eu-west-1.amazonaws.com/prod/
+
+# CREATE
+POST {{endpoint}}/teams/
+Content-Type: application/json
+
+{
+    "player": "Kamelot",
+    "team": "https://pokepast.es/eb9f668f9b9b40be"
+}
+###
+
+# READ
+GET {{endpoint}}/teams/
+###
